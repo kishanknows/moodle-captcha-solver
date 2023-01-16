@@ -1,0 +1,11 @@
+{
+    "manifest_version":3,
+    "name":"captcha solver",
+    "version":"1.0.0",
+    "description":"this extension solves moodle captcha",
+
+    "content_scripts":[{
+        "js":["scripts.js"],
+        "matches":["https://moodle.iitd.ac.in/login/index.php"]
+    }]
+}
