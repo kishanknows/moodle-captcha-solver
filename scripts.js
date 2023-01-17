@@ -1,5 +1,3 @@
-console.log("hello");
-console.log(document.getElementById("valuepkg3").value);
 const str = document.getElementById("login").innerText.split("\n")[3];
 const nums = str.match(/(\d+)/g);
 var ans = 0;
